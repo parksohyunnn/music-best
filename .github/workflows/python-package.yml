@@ -54,6 +54,7 @@ jobs:
         git add billboard/billboard100_*.json
         git add bugs/bugs100_*.json
         git add melon/melon100_*.json
+        git add apple/apple100_*.json
         git commit -m "차트 수집 완료"
 
     - name: push
