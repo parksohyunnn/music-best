@@ -12,7 +12,7 @@ import json
 
 # 현재 날짜 가져오기
 current_date = datetime.now().strftime("%Y-%m-%d")
-folder_path = "appleMusic"
+folder_path = "apple"
 filename = f"{folder_path}/apple100_{current_date}.json"
 # 웹드라이브 설치
 options = ChromeOptions()
